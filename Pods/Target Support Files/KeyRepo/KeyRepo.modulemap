@@ -1,0 +1,6 @@
+framework module KeyRepo {
+  umbrella header "KeyRepo-umbrella.h"
+
+  export *
+  module * { export * }
+}
