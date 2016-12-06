@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KeyRepo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-KeyRepo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -12,7 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4DFA5F726F403BC6ED9321F1CF7F7B8D</key>
+		<key>37224FC8B28D16AC0231BB16B585147F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA2DA23CE26927BBF8DE9DEE034FACDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>

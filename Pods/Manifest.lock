@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 7f4cc37113dedd82cb5c49a0bbe6abcbd2672049
+PODS:
+  - KeyRepo (0.0.1)
+
+DEPENDENCIES:
+  - KeyRepo (from `~/Documents/Libraries/KeyRepo`)
+
+EXTERNAL SOURCES:
+  KeyRepo:
+    :path: "~/Documents/Libraries/KeyRepo"
+
+SPEC CHECKSUMS:
+  KeyRepo: c40260d50143cc95b9c0179074d3eeaecc37c53c
+
+PODFILE CHECKSUM: 07a9f787da906159d623403f2672482938158075
 
 COCOAPODS: 1.1.1
