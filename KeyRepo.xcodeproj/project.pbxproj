@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3386BF524AC70A9870F812CF /* Pods_KeyRepo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B333096B1C5F6FF4AA26EE6B /* Pods_KeyRepo.framework */; };
 		418EEE601DF74B4E00C263E0 /* KeyRepo.h in Headers */ = {isa = PBXBuildFile; fileRef = 418EEE5E1DF74B4D00C263E0 /* KeyRepo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		418EEE681DF74C8D00C263E0 /* KeyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 418EEE661DF74C8D00C263E0 /* KeyGenerator.h */; };
 		418EEE691DF74C8D00C263E0 /* KeyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 418EEE671DF74C8D00C263E0 /* KeyGenerator.m */; };
+		45723D5427B74F7FB16EDB1E /* libPods-KeyRepo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEB513E4EF54C4C0A724AD3 /* libPods-KeyRepo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +21,7 @@
 		418EEE671DF74C8D00C263E0 /* KeyGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyGenerator.m; sourceTree = "<group>"; };
 		5337B59DC21C27148ADE2D27 /* Pods-KeyRepo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyRepo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyRepo/Pods-KeyRepo.release.xcconfig"; sourceTree = "<group>"; };
 		60A20BFED37468926C9776F6 /* Pods-KeyRepo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyRepo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyRepo/Pods-KeyRepo.debug.xcconfig"; sourceTree = "<group>"; };
-		B333096B1C5F6FF4AA26EE6B /* Pods_KeyRepo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyRepo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEB513E4EF54C4C0A724AD3 /* libPods-KeyRepo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeyRepo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,7 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3386BF524AC70A9870F812CF /* Pods_KeyRepo.framework in Frameworks */,
+				45723D5427B74F7FB16EDB1E /* libPods-KeyRepo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -39,7 +39,7 @@
 		329114C747F19803E0005BC8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B333096B1C5F6FF4AA26EE6B /* Pods_KeyRepo.framework */,
+				8EEB513E4EF54C4C0A724AD3 /* libPods-KeyRepo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
